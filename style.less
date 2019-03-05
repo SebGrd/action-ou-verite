@@ -1,0 +1,82 @@
+
+
+@orange : #FDB833;
+@rouge : #F25757;
+
+
+
+.action, .verite{
+  padding: 30px;
+  height: 100vh;
+  font-family: Pacifico;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h2{
+    font-size: 6rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  &:hover{
+    border: 10px solid white;
+    h2{
+      color: white;
+    }
+  }
+}
+
+.action{
+  background: @orange;
+}
+
+.verite{
+  background: @rouge;
+}
+
+.defi{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #00000099;
+  .box{
+    background: #ffffff;
+    display: inline-block;
+    padding: 40px;
+    border-radius: 4px;
+    top: 20%;
+    bottom: 20%;
+    right: 20%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h3{
+      font-family: Pacifico;
+      font-size: 4rem;
+    }
+    span{
+      font-size: 2rem;
+    }
+    button{
+      background: #f65050;
+      border: none;
+      color: #fff;
+    }
+  }
+}
+.box-action{
+  border: 6px solid @orange;
+  button{
+    background: @orange!important;
+  }
+}
+.box-verite{
+  border: 6px solid @rouge;
+  button{
+    background: @rouge!important;
+  }
+}

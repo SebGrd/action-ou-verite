@@ -1,0 +1,77 @@
+.action,
+.verite {
+  padding: 30px;
+  height: 100vh;
+  font-family: Pacifico;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.action h2,
+.verite h2 {
+  font-size: 6rem;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+.action:hover,
+.verite:hover {
+  border: 10px solid white;
+}
+.action:hover h2,
+.verite:hover h2 {
+  color: white;
+}
+.action {
+  background: #FDB833;
+}
+.verite {
+  background: #F25757;
+}
+.defi {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #00000099;
+}
+.defi .box {
+  background: #ffffff;
+  display: inline-block;
+  padding: 40px;
+  border-radius: 4px;
+  top: 20%;
+  bottom: 20%;
+  right: 20%;
+  left: 20%;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.defi .box h3 {
+  font-family: Pacifico;
+  font-size: 4rem;
+}
+.defi .box span {
+  font-size: 2rem;
+}
+.defi .box button {
+  background: #f65050;
+  border: none;
+  color: #fff;
+}
+.box-action {
+  border: 6px solid #FDB833;
+}
+.box-action button {
+  background: #FDB833 !important;
+}
+.box-verite {
+  border: 6px solid #F25757;
+}
+.box-verite button {
+  background: #F25757 !important;
+}
+/*# sourceMappingURL=style.css.map */
