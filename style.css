@@ -7,9 +7,15 @@
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 575px) {
+  .action,
+  .verite {
+    height: 50vh;
+  }
+}
 .action h2,
 .verite h2 {
-  font-size: 6rem;
+  font-size: 5.8rem;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
@@ -50,12 +56,30 @@
   flex-direction: column;
   justify-content: space-between;
 }
+@media (max-width: 575px) {
+  .defi .box {
+    top: 4%;
+    bottom: 4%;
+    right: 4%;
+    left: 4%;
+  }
+}
 .defi .box h3 {
   font-family: Pacifico;
   font-size: 4rem;
 }
+@media (max-width: 575px) {
+  .defi .box h3 {
+    font-size: 3.8rem;
+  }
+}
 .defi .box span {
   font-size: 2rem;
+}
+@media (max-width: 575px) {
+  .defi .box span {
+    font-size: 1.5rem;
+  }
 }
 .defi .box button {
   background: #f65050;

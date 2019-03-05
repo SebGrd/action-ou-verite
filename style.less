@@ -8,12 +8,15 @@
 .action, .verite{
   padding: 30px;
   height: 100vh;
+  @media (max-width: 575px){
+    height: 50vh;
+  }
   font-family: Pacifico;
   display: flex;
   flex-direction: column;
   justify-content: center;
   h2{
-    font-size: 6rem;
+    font-size: 5.8rem;
     text-align: center;
     transition: all 0.2s ease-in-out;
   }
@@ -49,6 +52,12 @@
     bottom: 20%;
     right: 20%;
     left: 20%;
+    @media(max-width: 575px){
+      top: 4%;
+      bottom: 4%;
+      right: 4%;
+      left: 4%;
+    }
     position: absolute;
     text-align: center;
     display: flex;
@@ -57,9 +66,16 @@
     h3{
       font-family: Pacifico;
       font-size: 4rem;
+      @media(max-width: 575px){
+        font-size: 3.8rem;
+      }
+
     }
     span{
       font-size: 2rem;
+      @media(max-width: 575px){
+        font-size: 1.5rem;
+      }
     }
     button{
       background: #f65050;
